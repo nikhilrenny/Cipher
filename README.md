@@ -4,7 +4,8 @@
 
 Built with [Tauri 2](https://tauri.app) (Rust backend, no Electron/Chromium bundle) and a single-file HTML/CSS/JS frontend, styled on Apple's Human Interface Guidelines. Everything lives on your disk. Nothing phones home.
 
-![Cipher home screen](assets/screenshot-home.png)
+<img src="assets/screenshot-home.png" alt="Cipher home screen" width="800">
+
 *Home dashboard — recent files, most used, favorites, live drive space, and Network & Cloud status.*
 
 ---
@@ -25,7 +26,8 @@ Most file explorers just move bytes around. Cipher treats your filesystem as som
 - 🎛️ **A file browser built for daily driving, not a demo.** Four view modes (list, grid, Finder-style column view, compact tile), multi-tab, browse-only split pane, breadcrumb with per-segment dropdowns, full keyboard navigation, remappable keybindings, batch rename with pattern tokens, undo/redo, and a Spotlight-style command palette (Ctrl+K) searching commands, settings, folders, the file index, and vault notes in parallel.
 - 🪶 **Genuinely lightweight.** A Tauri shell means a native Rust binary plus the OS's own WebView2 — not a bundled Chromium instance.
 
-![Protected project folder with per-item locks](assets/screenshot-protected-folder.png)
+<img src="assets/screenshot-protected-folder.png" alt="Protected project folder with per-item locks" width="420">
+
 *Folder-level write protection — the whole "Cipher" project folder locked, individual files showing lock badges.*
 
 ---
@@ -35,7 +37,7 @@ Most file explorers just move bytes around. Cipher treats your filesystem as som
 No separate panels to hunt through. File ops, encryption, locking, and full Git — all from the same context menu, contextual to whatever you clicked.
 
 <table>
-<tr><td><img src="assets/screenshot-context-menu-file.png" alt="File context menu" width="420"></td><td><img src="assets/screenshot-context-menu-folder-git.png" alt="Folder context menu with Git row" width="420"></td></tr>
+<tr><td><img src="assets/screenshot-context-menu-file.png" alt="File context menu" width="320"></td><td><img src="assets/screenshot-context-menu-folder-git.png" alt="Folder context menu with Git row" width="320"></td></tr>
 <tr><td align="center"><em>File: Open, favorite, Encrypt/Decrypt, Duplicate, Lock, Move/Copy to, hash, properties</em></td><td align="center"><em>Folder adds New folder/file and a <b>Git ▸</b> flyout — Cipher only shows Git actions where a repo makes sense</em></td></tr>
 </table>
 
@@ -43,10 +45,12 @@ The Git flyout is repo-aware: on an unversioned folder it offers to init a repo 
 
 Once a folder's under Git, the toolbar shows two live status pills next to the breadcrumb:
 
-![Git and lock status pills in the toolbar](assets/screenshot-git-toolbar-pills.png)
+<img src="assets/screenshot-git-toolbar-pills.png" alt="Git and lock status pills in the toolbar" width="300">
+
 *Commit pill (amber = uncommitted changes, click to commit directly), current branch, and a lock-status pill — all live, updating as you work.*
 
-![Full Cipher project tree, write-locked](assets/screenshot-column-view-protected.png)
+<img src="assets/screenshot-column-view-protected.png" alt="Full Cipher project tree, write-locked" width="800">
+
 *Column view showing Cipher's own repo, entirely write-locked — every item carries a lock badge, and the toolbar shows "Protected."*
 
 ---
@@ -130,7 +134,7 @@ Everything configurable lives in one sidebar + content-pane Settings panel:
 | Advanced | GPU/WebGL diagnostics, cache clearing, native vault crypto test harness |
 
 <table>
-<tr><td><img src="assets/screenshot-drive-index.png" alt="Drive index settings" width="400"></td><td><img src="assets/screenshot-key-backup.png" alt="Key backup settings" width="400"></td></tr>
+<tr><td><img src="assets/screenshot-drive-index.png" alt="Drive index settings" width="420"></td><td><img src="assets/screenshot-key-backup.png" alt="Key backup settings" width="420"></td></tr>
 <tr><td align="center"><em>Per-drive indexing with live file-watch toggles</em></td><td align="center"><em>24-word seed phrase backup & recovery</em></td></tr>
 </table>
 
