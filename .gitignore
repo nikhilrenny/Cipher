@@ -1,0 +1,16 @@
+node_modules/
+src-tauri/target/
+src-tauri/gen/
+keys/
+vault/
+_trash/
+docs/
+github-auth.json
+git-identity.json
+usage.json
+bookmarks.json
+favorites.json
+quick-access.json
+lock-overrides.json
+.cipher-config.json
+.cipher-lock
