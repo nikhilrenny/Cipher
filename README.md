@@ -167,6 +167,4 @@ Deliberately parked, not forgotten: a dedicated Fork/VS Code-style Git panel (cu
 
 ---
 
-## 📄 License
 
-*(add your chosen license here — e.g. MIT)*
