@@ -4,6 +4,8 @@
 
 Built with [Tauri 2](https://tauri.app) (Rust backend, no Electron/Chromium bundle) and a single-file HTML/CSS/JS frontend, styled on Apple's Human Interface Guidelines. Everything lives on your disk. Nothing phones home.
 
+> **Status: active development, pre-1.0.** Core file ops, the encrypted vault, Git sync, and search are built and working daily — see the [Roadmap](#️-roadmap) for what's shipped vs. still open. Expect rough edges and breaking changes between versions.
+
 <img src="assets/screenshot-home.png" alt="Cipher home screen" width="800">
 
 *Home dashboard — recent files, most used, favorites, live drive space, and Network & Cloud status.*
